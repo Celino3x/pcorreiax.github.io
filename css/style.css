@@ -12,18 +12,21 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    border: 1px solid red;
     font-size: 50px;  
-    user-select: none;  
+    user-select: none;    
+    position: absolute;
+    bottom: 5%;
+    left: 45%;
+    padding: 0;
+    margin: 0;
 }
 #redes-sociais li{
     text-align: center;
     padding: 15px;
     border-radius: 25px;
-    background-color: #ccc;
     list-style: none; 
-    position: absolute;
-    bottom: 5%;
-    left: 40%;
-    right: 40%;
-    
+}   
+.fab{ 
+    color: black;
 }
