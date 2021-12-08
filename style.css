@@ -1,0 +1,12 @@
+body{
+    background: url(./img/background.jpg) no-repeat fixed center;
+}
+
+#titulo{
+    font-size: 72px;
+    color: white;
+    border: 1px solid black;
+    text-align: center;
+    margin-top: 5%;
+    user-select: none;
+}
