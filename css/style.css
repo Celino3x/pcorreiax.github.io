@@ -9,24 +9,20 @@ body{
     user-select: none;
 }
 #redes-sociais{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid red;
-    font-size: 50px;  
+    font-size: 35px;  
     user-select: none;    
     position: absolute;
     bottom: 5%;
-    left: 45%;
-    padding: 0;
-    margin: 0;
+    left: 48.5%;
 }
 #redes-sociais li{
-    text-align: center;
-    padding: 15px;
     border-radius: 25px;
     list-style: none; 
+    
 }   
+#redes-sociais ul{
+    padding: 0;
+}
 .fab{ 
-    color: black;
+    color: white;
 }
